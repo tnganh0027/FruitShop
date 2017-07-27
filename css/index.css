@@ -1,0 +1,135 @@
+@charset "utf-8";
+/* CSS Document */
+/* Start index.css*/
+* {
+	font-family: Arial, Verdana, sans-serif;
+	color: #665544;
+}
+
+body{
+	width: 90%;
+	margin: 0 auto;
+}
+
+#header{
+	width: 1600px;
+	height: 700px;
+	background-image: url(../image/wallpaper.jpg);
+	background-repeat: no-repeat;
+	margin: 0px 0px 0px 150px;
+}
+
+#category {
+	width: 1600px;
+	margin: 0px 0px 0px 150px;
+	background-color: #efefef;
+	overflow: auto;
+}
+
+
+#category h1 {
+	width: 400px;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 24pt;
+	padding: 0px 2px;
+	margin: 0px;
+	background-image: url(../image/menu.png);
+	background-repeat: no-repeat;
+	background-size: 400px 38px;
+}
+
+#category ul li h1 {   /*Hy cù bơ sửa lại*/
+    float: left;
+} 
+
+#category ul {
+	list-style: none;
+}
+
+#category ul li{
+ 	display: inline;
+}
+
+
+#category ul li a{
+	float: right;
+	padding: 0px 10px;
+	text-decoration: none;
+	font-size: 18pt;
+	font-weight: bold;
+}
+
+#category ul li a:hover{
+	text-decoration: underline;
+}
+
+#content {
+	width: 1600px;
+	margin: 0px 0px 0px 150px;
+}
+
+.product ul {
+	width:100%;
+	list-style: none;
+}
+
+.product ul li {
+	width: 320px;
+	height: auto;
+	border: 1px solid #000;
+	float: left;
+	margin-left: 40px;
+	margin-bottom: 20px;
+}
+
+.product ul li p{
+	text-decoration: none;
+	text-align:center;
+	font-weight: bold;
+}
+
+#nav{
+	background:rgb(255,255,255);
+	background:rgba(255,255,255,0.7);
+	overflow:auto;
+}
+
+#nav li{
+	display: inline;
+	padding: 20px 20px;
+	float:right;
+}
+
+#nav li a {
+	font-size:18pt;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#nav li a:hover{
+	text-decoration: underline;
+}
+
+img.align-image{
+	width: 150px;
+	margin: 0px auto;
+	display:block;
+}
+
+#footer{
+	width: 1600px;
+	margin: 0px 0px 0px 150px;
+}
+
+#footer p {
+	text-align: right;
+	font-weight: bold;
+	font-style:italic;
+}
+
+.class-clear{
+	clear:left;
+}
+
+
