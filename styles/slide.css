@@ -13,6 +13,14 @@ a {
   }
 }
 
+.price-text-color{
+  color: #00990E;
+}
+
+.img-responsive {
+  margin: 0 auto;
+}
+
 .carousel-inner { margin: auto; width: 90%; }
 .carousel-control 			 { width:  4%; }
 .carousel-control.left,
