@@ -1,0 +1,35 @@
+.hide-bullets{
+	list-style: none;
+	margin-left: -40px;
+	margin-right: 20px;
+}
+
+.thumbnail {
+	padding: 0;
+}
+
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+    width: 100%;
+}
+
+.list-info{
+	margin-left: 40px
+}
+
+#slider{
+	margin-top: 60px;
+}
+
+#name-product{
+	font-size: 40px;
+	text-align: center;
+}
+
+#infor-text{
+	font-size: 20px;
+	margin-left: 40px;
+}
+
+#add-to-cart{
+	background-color: #EA2424;
+}
